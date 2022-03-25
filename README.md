@@ -4,9 +4,14 @@ NativeValidate.js is a simple validator enhancer for your simple forms. It uses 
 
 ## Usage
 
-`npm i nativevaliatorjs`
+`npm i nativevaliatorjs` 
 
-Include `nativeValidate.min.js` or `nativeValidate.js` in your project
+OR
+Include
+
+ ` https://cdn.jsdelivr.net/gh/Vishnu053/nativevalidatejs@main/nativeValidate.min.js`
+
+> Include `nativeValidate.min.js` or `nativeValidate.js` in your project
 
 > choose a unique name for your parent element covering all your inputs to be validated. This classname should be passed to all the nativeValidate functions you call.
 
