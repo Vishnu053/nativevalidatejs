@@ -1,12 +1,16 @@
 {
-  "name": "nativevalidate",
+  "name": "nativevalidatejs",
   "version": "0.0.1",
   "description": "NativeValidate.js is a simple validator enhancer for your simple forms. It uses in-built browser validation API to validate your form fields.",
-  "main": "validate.js",
+  "main": "nativeValidate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["validator","native-validator","validate.js"],
+  "keywords": ["validator","native-validator","nativeValidate.js"],
   "author": "Vishnu053",
-  "license": "ISC"
+  "license": "ISC",
+  "repository":"git://github.com/Vishnu053/nativevalidatejs.git",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
 }
