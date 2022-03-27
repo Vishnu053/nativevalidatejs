@@ -30,7 +30,7 @@
     };
     function saveForm(){
         validateInputs('validate-my-children')
-            .then(r=>{saveForm()})
+            .then(r=>{alert("All good. Now proceed to save")})
             .catch(e=>{alert(e +" errors found!")})
     }
 </script>
